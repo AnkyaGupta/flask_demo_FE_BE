@@ -1,0 +1,19 @@
+<!-- templates/todo.html -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do Page</title>
+</head>
+<body>
+    <h1>Create a To-Do Item</h1>
+    <form action="/submittodoitem" method="POST">
+        <label for="itemName">Item Name:</label><br>
+        <input type="text" id="itemName" name="itemName"><br><br>
+        
+        <label for="itemDescription">Item Description:</label><br>
+        <textarea id="itemDescription" name="itemDescription"></textarea><br><br>
+        
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
